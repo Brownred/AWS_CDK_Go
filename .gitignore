@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# go.sum should be committed
+!go.sum
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out/
+
+*.zip
+
+# Go build output
+*.o
+*.a
+
+# Go test cache
+*.test-cache
+
+# Go module cache
+*.mod
+*.sum
+
+# Go generated files
+*_gen.go
+*_gen_test.go
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Dependency directories
+vendor/
+node_modules/
